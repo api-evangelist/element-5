@@ -1,22 +1,69 @@
 aid: element-5
-name: Element 5
-description: Element 5 is a company surfaced as a portfolio company of earlybird and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/element-5.png
+name: element 5 AG
+description: >-
+  element 5 AG was a German e-commerce and digital-distribution company founded
+  in 2000 and headquartered in Cologne, Germany. It operated a platform that let
+  software developers and publishers sell their products and licenses directly to
+  customers online, growing to more than 10,000 clients across 150 countries and
+  becoming one of Europe's leading software e-commerce providers. element 5 was
+  acquired by U.S.-based Digital River (its direct competitor) for roughly $120M
+  and subsequently absorbed and renamed Digital River GmbH, ceasing to operate as
+  an independent company. It was an early Earlybird Venture Capital portfolio
+  company; this profile records its identity and exit. No live independent API or
+  developer surface remains to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/element-5/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - earlybird
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-acquired
+x-status: defunct
+x-acquired-by: Digital River (renamed Digital River GmbH)
+x-founded: '2000'
+x-headquarters: Cologne, Germany
+x-enrichment-note: >-
+  Earlybird's portfolio company element-5-ag is the defunct German software
+  e-commerce firm (acquired by Digital River ~2004-2006). A live API exists at
+  api.e5.ai, but that belongs to a DIFFERENT, unrelated US healthcare-automation
+  company (Element5, San Jose) that is NOT an Earlybird portfolio company, so it
+  is deliberately not attached here. No live domain (element5.com unresolved,
+  element5.de parked on Sedo), docs, packages, or spec surface exists for this
+  entity. Nothing to enrich without fabrication.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- E-Commerce
+- Software Distribution
+- Digital Goods
+- Payments
+- Germany
+- Acquired
+common:
+- type: EarlybirdPortfolio
+  url: https://earlybird.com/companies/element-5-ag
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
