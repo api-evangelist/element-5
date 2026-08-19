@@ -42,7 +42,7 @@ x-enrichment-note: >-
   is deliberately not attached here. No live domain (element5.com unresolved,
   element5.de parked on Sedo), docs, packages, or spec surface exists for this
   entity. Nothing to enrich without fabrication.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
