@@ -1,0 +1,18 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/element-5/integrations
+- https://zapier.com/apps/element-5-ag/integrations
+- https://n8n.io/integrations/element-5/
+- https://composio.dev/toolkits/element-5
+- https://monid.ai/tools/element-5
+checked:
+- https://composio.dev/toolkits/element-5
+- https://monid.ai/tools/element-5
+- https://n8n.io/integrations/element-5/
+- https://zapier.com/apps/element-5-ag/integrations
+- https://zapier.com/apps/element-5/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
